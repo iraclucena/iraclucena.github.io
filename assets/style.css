@@ -55,7 +55,7 @@ p{margin:0 0 .6em}
 .hero{display:grid;grid-template-columns:1.6fr 1fr;gap:48px;align-items:center;margin-bottom:56px}
 .hero h1::after{content:"";display:block;width:56px;height:3px;background:var(--accent);border-radius:3px;margin-top:16px}
 .hero-photo{display:flex;justify-content:center}
-.hero-photo img,.photo-placeholder{width:min(280px,100%);aspect-ratio:1;border-radius:50%;object-fit:cover;box-shadow:0 0 0 8px var(--accent-soft),0 0 0 9px var(--line)}
+.hero-photo img,.photo-placeholder{width:min(280px,100%);height:auto;aspect-ratio:1;border-radius:50%;object-fit:cover;box-shadow:0 0 0 8px var(--accent-soft),0 0 0 9px var(--line)}
 .photo-placeholder{display:grid;place-items:center;background:linear-gradient(135deg,var(--accent-soft),#e6dcf6);font:600 3.4rem var(--serif);color:var(--accent-dark)}
 
 /* botões */
